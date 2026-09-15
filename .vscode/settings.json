@@ -1,0 +1,24 @@
+{
+    "stylua.targetReleaseVersion": "latest",
+    "cSpell.words": [
+        "Bindables",
+        "Collidable",
+        "fatmad",
+        "Flipbook",
+        "fpart",
+        "gsub",
+        "INTERACTABLE",
+        "ipairs",
+        "Keypoint",
+        "Lerp",
+        "listiner",
+        "Listner",
+        "pcall",
+        "Psnr",
+        "rbxasset",
+        "rbxassetid",
+        "REGEN",
+        "setmetatable",
+        "taging"
+    ]
+}

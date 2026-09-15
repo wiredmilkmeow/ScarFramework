@@ -1,0 +1,1 @@
+-- disables default character sounds

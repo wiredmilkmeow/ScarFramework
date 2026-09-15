@@ -1,0 +1,136 @@
+{
+  "name": "ScarFramework",
+  "tree": {
+    "$className": "DataModel",
+
+    "Workspace": {
+      "$className": "Workspace",
+      "$properties": {
+        "PlayerCharacterDestroyBehavior": "Enabled",
+        "StreamingEnabled": false
+      },
+
+      "Map": {
+        "$className": "Folder",
+        "$ignoreUnknownInstances": true
+      },
+
+      "RemoveOnRun": {
+        "$className": "Folder",
+        "$ignoreUnknownInstances": true
+      },
+
+      "SpawnLocations": {
+        "$className": "Folder",
+        "$ignoreUnknownInstances": true
+      }
+    },
+
+    "Lighting": {
+      "$className": "Lighting",
+      "$properties": {
+        "Technology": "Future"
+      }
+    },
+
+    "Players": {
+      "$className": "Players",
+      "$properties": {
+        "CharacterAutoLoads": true,
+        "UseStrafingAnimations": false,
+
+        "Attributes": {
+			    "AdminIsRegularPlayer": {"Bool": false}
+		    }
+      }
+    },
+
+    "ReplicatedFirst": {
+      "$className": "ReplicatedFirst",
+
+      "$path": "src/ReplicatedFirst"
+    },
+
+    "ReplicatedStorage": {
+      "$className": "ReplicatedStorage",
+
+      "$path": "src/ReplicatedStorage",
+
+      "Packages": {
+        "$path": "packages"
+      },
+
+      "LoadedAssets": {
+        "$className": "Folder",
+        "$ignoreUnknownInstances": true
+      }
+    },
+
+    "ServerScriptService": {
+      "$className": "ServerScriptService",
+
+      "$path": "src/ServerScriptService"
+    },
+
+    "ServerStorage": {
+      "$className": "ServerStorage",
+
+      "$path": "src/ServerStorage",
+
+      "ServerPackages": {
+        "$path": "serverPackages"
+      },
+
+      "Sounds": {
+        "$className": "Folder",
+        "$ignoreUnknownInstances": true
+      }
+    },
+
+    "StarterGui": {
+      "$className": "StarterGui",
+      "$properties": {
+        "VirtualCursorMode": "Disabled"
+      }
+    },
+
+    "SoundService": {
+      "$className": "SoundService",
+      "$properties": {
+        "VolumetricAudio": "Enabled"
+      }
+    },
+
+    "StarterPlayer": {
+      "$className": "StarterPlayer",
+      "$properties": {
+        "HealthDisplayDistance": 0,
+        "NameDisplayDistance": 0,
+        "CameraMaxZoomDistance": 0.5,
+        "CameraMinZoomDistance": 0.5,
+        "CameraMode": "LockFirstPerson",
+        "LoadCharacterAppearance": true,
+        "UserEmotesEnabled": false,
+        "CharacterJumpHeight": 0,
+        "CharacterUseJumpPower": false,
+        "DevComputerMovementMode": "KeyboardMouse",
+        "DevTouchMovementMode": "DynamicThumbstick",
+        "EnableMouseLockOption": false,
+        "AutoJumpEnabled": false
+      },
+
+      "StarterPlayerScripts": {
+        "$className": "StarterPlayerScripts",
+        
+        "$path": "src/starterPlayer/starterPlayerScripts"
+      },
+
+
+      "StarterCharacterScripts": {
+        "$className": "StarterCharacterScripts",
+        
+        "$path": "src/starterPlayer/StarterCharacterScripts"
+      }
+    }
+  }
+}
